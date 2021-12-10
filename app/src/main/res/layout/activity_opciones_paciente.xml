@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpcionesPacienteActivity">
+
+    <Button
+        android:id="@+id/b_opc_tratamientos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="200dp"
+        android:onClick="accRecetarTratamiento"
+        android:text="@string/b_opc_tratamientos"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/b_opc_historia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="100dp"
+        android:onClick="accHistoriaClinica"
+        android:text="@string/b_historia"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_opc_tratamientos"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

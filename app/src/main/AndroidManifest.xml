@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthscribe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Healthscribe">
+        <activity android:name=".ListaMedicamHistoriaActivity"></activity>
+        <activity android:name=".DatosTratamientoActivity" />
+        <activity android:name=".TratamientoActivity" />
+        <activity android:name=".MiHistoriaActivity" />
+        <activity android:name=".AsignacionTratamientoActivity" />
+        <activity android:name=".CreacionTratamientoActivity" />
+        <activity android:name=".CrearTratamientoActivity" />
+        <activity android:name=".ListaAlerActivity" />
+        <activity android:name=".ListaEnfermHistActivity" />
+        <activity android:name=".EditarHistoriaClinicaActivity" />
+        <activity android:name=".CambiaListaAlerActivity" />
+        <activity android:name=".CambiaListaEnfermActivity" />
+        <activity android:name=".CambiaListaMedicamActivity" />
+        <activity android:name=".CambiaIncompatibilidadActivity" />
+        <activity android:name=".DatosIncompatibilidadActivity" />
+        <activity android:name=".MedicamentoSpinnerActivity" />
+        <activity android:name=".ListaAlergIncompActivity" />
+        <activity android:name=".ListaEnferIncompActivity" />
+        <activity
+            android:name=".IncompatibilidadActivity"
+            android:parentActivityName=".MenuAdminActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuAdminActivity" />
+        </activity>
+        <activity android:name=".ListaMedicamIncompActivity" />
+        <activity android:name=".CrearIncompatibilidadActivity" />
+        <activity android:name=".HistoriaClinicaActivity" />
+        <activity android:name=".OpcionesPacienteActivity" />
+        <activity android:name=".DatosPacienteActivity" />
+        <activity android:name=".PacienteActivity" />
+        <activity android:name=".ModificaMedicoActivity" />
+        <activity android:name=".PerfilMedicoActivity" />
+        <activity android:name=".ModificaPerfilActivity" />
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".ModificaAdminActivity" />
+        <activity android:name=".CambiaAlergiaActivity" />
+        <activity android:name=".DatosAlergiaActivity" />
+        <activity android:name=".CrearAlergiaActivity" />
+        <activity android:name=".CambiaEnfermedadActivity" />
+        <activity android:name=".DatosEnfermedadActivity" />
+        <activity android:name=".CrearEnfermedadActivity" />
+        <activity android:name=".CambiaMedicamentoActivity" />
+        <activity android:name=".DatosMedicamentoActivity" />
+        <activity android:name=".CrearMedicamentoActivity" />
+        <activity android:name=".CambiaUsuarioActivity" />
+        <activity android:name=".DatosUsuarioActivity" />
+        <activity android:name=".PerfilAdminActivity" />
+        <activity android:name=".AlergiaActivity" />
+        <activity android:name=".EnfermedadActivity" />
+        <activity android:name=".MedicamentoActivity" />
+        <activity android:name=".UsuarioActivity" />
+        <activity android:name=".RegistrarMedicoActivity" />
+        <activity android:name=".MenuMedicoActivity" />
+        <activity android:name=".MenuAdminActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".EntrarActivity" />
+        <activity android:name=".RegistrarActivity" />
+        <activity android:name=".InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

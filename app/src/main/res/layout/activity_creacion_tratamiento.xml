@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreacionTratamientoActivity">
+
+
+    <Button
+        android:id="@+id/b_trat_unico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_opc_tratamientos"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/txt_fecha_inicio_trat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha inicio"
+        android:inputType="date"
+        android:focusable="false"
+        android:datePickerMode = "spinner"
+        android:calendarViewShown = "false"
+        android:isScrollContainer="false"/>
+
+    <EditText
+        android:id="@+id/txt_fecha_fin_trat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha fin"
+        android:inputType="date"
+        android:focusable="false"
+        android:datePickerMode = "spinner"
+        android:calendarViewShown = "false"
+        android:isScrollContainer="false"/>
+
+    <EditText
+        android:id="@+id/txt_motivo_trat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motivo"/>
+
+    <ListView
+        android:id="@+id/lv_trat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
